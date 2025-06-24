@@ -1,0 +1,141 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1440px) {
+  .img_offer4 {
+    right: 10px;
+  }
+  .img_offer1 {
+    top: -120px;
+    left: 8px;
+}
+.main_head > h1 {
+  font-size: 55px;
+}
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .main_head > h1 {
+    font-size: 42px;
+}
+.black_main > h1 {
+  font-size: 65px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .frame-wrapper {
+    position: absolute;
+    display: none;
+    top: 100%;
+    background: #000;
+    width: 100%;
+    z-index: 100;
+    left: 0px;
+  }
+  .home-parent {
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    gap: 10px 0px !important;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0px 4px 8px 1px lightgray;
+  }
+  .bars {
+    display: block;
+  }
+  .row_rever{
+    flex-direction: column-reverse;
+  }
+  .img_offer4 , .img_offer3{
+    display: none;
+  }
+  .img_offer2 {
+    height: 250px;
+    width: 250px;
+    right: 30px;
+    bottom: -80px;
+}
+.img_offer1 {
+  left: 0px;
+  height: 250px;
+  width: 250px;
+}
+.mini_bin , .mini_bin1{
+  right: 0px;
+  left: unset;
+}
+.pady-60 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .main_head > h1 {
+    font-size: 35px;
+}
+.main_head{
+  padding: 0px;
+}
+.para {
+  font-size: 18px;
+}
+.expbtn , .usebtn{
+  padding: 14px;
+}
+.main_card{
+  margin-top: 20px;
+}
+.content_box{
+  bottom: 0px !important;
+}
+.black_main > h1 {
+  font-size: 40px;
+}
+.img_offer1 , .img_offer2{
+  display: none;
+}
+.new_head {
+  align-items: flex-start;
+  
+  flex-direction: column;
+}
+.pady-80 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.new_head>h5{
+  font-size: 16px;
+}
+.bingo_img{
+  height: auto;
+}
+.mini_bin , .mini_bin1{
+  border: 1px solid var(--color-orange);
+  height: 100px;
+  width: 100px;
+}
+.padx-20 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar{
+  padding: 10px 0px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 420px) {
+}
+@media only screen and (max-width: 360px) {
+}
